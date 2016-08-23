@@ -1,0 +1,31 @@
+@import '../styles/base.styl'
+
+.dropdownList
+  float left
+  height 100%
+  padding 5px 20px
+  width 180px
+
+  ul
+    list-style-type none
+    padding 0
+
+  +breakpoint("desktop", "max")
+    float none
+    width 100%
+    margin 0
+    height auto
+    padding 0
+    padding-bottom 15px
+
+.moreDropdownList
+  +breakpoint("desktop")
+    padding-left 12px
+    padding-right 12px
+    width 150px
+
+    &:first-child
+      padding-left 20px
+
+.section-title
+  composes section-title from 'stylus!../DropdownHighlight/DropdownHighlight.styl'

@@ -1,0 +1,83 @@
+@import "../styles/base.scss";
+
+.item {
+  position: relative;
+
+  > a {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    height: 44px;
+    line-height: 44px;
+    text-decoration: none;
+    white-space: nowrap;
+    color: rgba(black, 0.64);
+    vertical-align: middle;
+  }
+
+    .text,
+    .icon {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .icon {
+      @include breakpoint("desktop", "max") {
+        display: none;
+      }
+
+      @include breakpoint("desktop") {
+        max-width: 20px;
+        max-height: 20px;
+        margin-right: 15px;
+        filter: grayscale(100%);
+        opacity :.5;
+        transition: filter 0.1s, opacity 0.1s;
+      }
+    }
+
+  &:hover {
+    .text {
+      color: black;
+    }
+    .icon {
+      opacity: 1;
+      filter: none;
+    }
+  }
+
+}
+
+
+.arrowItem {
+  @extends .item;
+
+  @include breakpoint("desktop") {
+    &:after {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 0;
+      height: 0;
+      border-top: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-bottom: 4px solid transparent;
+      border-left: 4px solid rgba(black, 0.2);
+      transition: border 0.1s;
+    }
+
+    &:hover:after {
+      border-left-color: black;
+    }
+  }
+}
+
+.moreItem > a {
+  height: 36px;
+  line-height: 36px;
+}
+

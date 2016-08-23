@@ -1,0 +1,168 @@
+@import "../styles/base.scss";
+
+.header {
+    background-color: white;
+    border-bottom: 1px solid rgba(black, 0.1);
+    text-align: left;
+
+    &.theme-dark {
+        @include breakpoint("desktop") {
+            background-color: transparent;
+            border-bottom: 1px solid rgba(white, 0.1);
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 999;
+        }
+    }
+
+    &.is-dropdown-open {
+        @include breakpoint("desktop", "max") {
+            height: 75px;
+        }
+    }
+}
+
+.menu.is-dropdown-open {
+    @include breakpoint("desktop", "max") {
+        background-color: rgba(white, 0.97);
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 9100;
+    }
+}
+
+.collapse {
+    @include clearfix;
+
+    @include breakpoint("desktop", "max") {
+        display: none;
+    }
+
+
+    @include breakpoint("desktop") {
+        float: left;
+    }
+
+
+    &.is-dropdown-open {
+        @include breakpoint("desktop", "max") {
+            -webkit-overflow-scrolling: touch;
+            display: block;
+            height: calc(100vh - 75px);
+            overflow-y: scroll;
+            padding-bottom: 82px;
+            padding-top: 10px;
+        }
+    }
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    @include breakpoint("desktop") {
+        float: left;
+        margin-left: 30px;
+    }
+}
+
+.navigation
+.buttons-group {
+    @include clearfix();
+    position: relative;
+
+    @include breakpoint("desktop") {
+        @include vertical-center-elem(28px, $navbar-desktop-height);
+    }
+}
+
+.buttons-group {
+    @include breakpoint("desktop", "max") {
+        display: none;
+    }
+
+
+    @include breakpoint("desktop") {
+        float: right;
+    }
+
+
+    &.is-dropdown-open {
+        @include breakpoint("desktop", "max") {
+            background-color: white;
+            bottom: 0;
+            display: block;
+            left: 0;
+            padding-bottom: 25px;
+            padding-top: 25px;
+            position: absolute;
+            right: 0;
+            text-align: center;
+        
+
+
+        &:before {
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.001) 0%, white 100%);
+            bottom: 100%;
+            content: '';
+            display: block;
+            height: 20px;
+            position: absolute;
+            width: 100%;
+        }
+    }
+    }
+
+    // Style .btn.btn-transparent on mobile always on his standard version ignoring .theme-dark style
+    :global .btn.btn-transparent {
+        @include breakpoint("desktop", "max") {
+            background-color: rgba(0, 0, 0, 0) !important;
+            border-color: rgba(0, 0, 0, 0) !important;
+            box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2) !important;
+            color: #333 !important;
+        }
+
+
+        &:hover {
+            @include breakpoint("desktop", "max") {
+                color: #333 !important;
+                background-color: rgba(0, 0, 0, 0) !important;
+                border-color: transparent !important;
+            }
+        }
+    }
+
+    :global .btn {
+        font-size: 11px;
+        padding: 8px 18px;
+    }
+
+    :global .btn + .btn {
+        margin-left: 18px;
+    }
+}
+
+.header :global(.container) {
+    width: auto;
+}
+
+.header :focus {
+    outline: none;
+}
+
+.header.focusable :focus {
+    outline: thin dotted !important;
+}
+
+.overflow {
+    height: 100%;
+    overflow: hidden !important;
+    position: fixed;
+    width: 100%;
+}

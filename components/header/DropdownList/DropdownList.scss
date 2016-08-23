@@ -1,0 +1,47 @@
+@import "../styles/base.scss";
+
+.dropdownList {
+    float: left;
+    height: 100%;
+    padding: 5px 20px;
+    width: 180px;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    @include breakpoint("desktop", "max") {
+        float: none;
+        width: 100%;
+        margin: 0;
+        height: auto;
+        padding: 0;
+        padding-bottom: 15px;
+    }
+}
+
+.moreDropdownList {
+    @include breakpoint("desktop") {
+        padding-left: 12px;
+        padding-right: 12px;
+        width: 150px;
+
+        &:first-child {
+            padding-left: 20px;
+        }
+    }
+}
+
+.section-title {
+    padding-bottom: 10px;
+    margin: 12px 0 10px 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: #000 !important;
+    border-bottom: 1px solid $bg-color-gray;
+
+    @include breakpoint("desktop", "max") {
+        margin-top: 20px;
+    }
+}

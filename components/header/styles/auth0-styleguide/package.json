@@ -1,0 +1,107 @@
+{
+  "_args": [
+    [
+      "auth0-styleguide@github:auth0/styleguide",
+      "/Users/Abdi/web-header"
+    ]
+  ],
+  "_from": "auth0/styleguide",
+  "_id": "auth0-styleguide@4.8.6",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/auth0-styleguide",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/auth0/styleguide/master/package.json",
+      "gitUrl": "git://github.com/auth0/styleguide.git",
+      "httpsUrl": "git+https://github.com/auth0/styleguide.git",
+      "shortcut": "github:auth0/styleguide",
+      "ssh": "git@github.com:auth0/styleguide.git",
+      "sshUrl": "git+ssh://git@github.com/auth0/styleguide.git",
+      "type": "github"
+    },
+    "name": "auth0-styleguide",
+    "raw": "auth0-styleguide@github:auth0/styleguide",
+    "rawSpec": "github:auth0/styleguide",
+    "scope": null,
+    "spec": "github:auth0/styleguide",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "git://github.com/auth0/styleguide.git#674dc95c6e0b67ca16900591cc8f464a6a32b12b",
+  "_shasum": "fbff8194d2bda1d38230697e7bea2748b9f8ba2f",
+  "_shrinkwrap": null,
+  "_spec": "auth0-styleguide@github:auth0/styleguide",
+  "_where": "/Users/Abdi/web-header",
+  "author": {
+    "email": "support@auth0.com",
+    "name": "Auth0",
+    "url": "http://auth0.com"
+  },
+  "bugs": {
+    "url": "https://github.com/auth0/lock/issues"
+  },
+  "dependencies": {},
+  "description": "Auth0 Styleguide ================",
+  "devDependencies": {
+    "bump-version": "^0.5.0",
+    "grunt": "^0.4.5",
+    "grunt-aws-s3": "^0.14.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-http": "^1.5.0",
+    "grunt-maxcdn": "https://github.com/siacomuzzi/grunt-maxcdn/tarball/0.0.1",
+    "grunt-s3": "~0.2.0-alpha.3",
+    "grunt-shell": "^0.7.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-ejs": "^2.1.2",
+    "gulp-filter": "^4.0.0",
+    "gulp-html-prettify": "0.0.1",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^1.2.2",
+    "gulp-mjml": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-server-livereload": "^1.7.3",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-stylus": "^2.3.1",
+    "jade": "^1.7.0",
+    "matchdep": "^0.3.0",
+    "mjml": "^2.2.0",
+    "serve": "^1.4.0",
+    "stylus": "~0.54.0"
+  },
+  "engines": {
+    "node": "4.3.2"
+  },
+  "gitHead": "674dc95c6e0b67ca16900591cc8f464a6a32b12b",
+  "homepage": "https://github.com/auth0/lock#readme",
+  "name": "auth0-styleguide",
+  "optionalDependencies": {},
+  "readme": "Auth0 Styleguide\n================\n\nAuth0 Product Style Guide. **This is for internal use by Auth0 only.**\n\n\n<img src=\"https://cloudup.com/cJZuvZroxvc+\" />\n\n## Usage\n\nWe encourage you to use our CDN resource, but if you want to extend you can either use [Component(1)][component-home] or [Bower][bower-home] for that.\nInstructions on the build process are detailed below.\n\n### CDN\nUsing our CDN is the simplest solution. Just add the following line in your project's HTML head and you are done.\n\n~~~html\n<link href=\"https://cdn.auth0.com/styleguide/latest/index.css\" rel=\"stylesheet\" />\n~~~\n\nIf you require any other asset listed under the `lib` folder, you can follow a simple rule: `https://cdn.auth0.com/styleguide/latest/<path-to-asset-under-lib>`\n\nFor example, if you want to retrieve our logo:\n\n```html\n<!-- Retrieving the logo at `lib/logos/img/badge.png` -->\n<img src=\"https://cdn.auth0.com/styleguide/latest/lib/logos/img/badge.png\">\n```\n\n### Run locally\n\nTo run locally\n\n```bash\n  npm i\n  npm run dev\n```\n\n### Bower\n\nBower usage is only recomended when you plan to extend the styleguide from build. If that's not the case just use our CDN as described [above][cdn-hash].\n\n#### Install\n\n```bash\nbower install auth0/styleguide\n```\n\n```json\n{\n  \"dependencies\": {\n    \"auth0-styleguide\": \"auth0/styleguide\"\n  }\n}\n```\n\n#### Build\n\nSince we use stylus for compiling our assets. So you should translate this build tasks to your own build process:\n\n```bash\nstylus --include-css --include bower_components --resolve-url --out <your_dest_path> your_index.styl\ncp -R lib/**/* <your_dest_path>\n```\n\nYou may use [bower][bower-home] or [gulp][gulp-home] or any task/build helper of your preference. Just make sure the final folder structure looks like this:\n\n```\n<your_dest_path>/\n|- lib/\n|  |- ...\n| - index.css\n```\n\n#### Usage\n\nWith a build process well defined, you can now include the styleguide from your `index.styl`\n\n```stylus\n// use all styleguide styles\n@include 'bower_components/auth0-styleguide'\n\n// define your own\nbody.my-custom\n  .styles-here\n    color: red;\n```\n\nOr perhaps you want to extend just parts of it by:\n\n```stylus\n// use only colors\n@include 'bower_components/auth0-styleguide/lib/vars'\n\n// and override color-red\ncolor-red = '#ff0000';\n```\n\n### Component(1)\n\nComponent usage is only recomended when you plan to extend the styleguide from build. If that's not the case just use our CDN as described [above][cdn-hash].\n\nThe following details on installation and usage are made according to the latest component version. Check Component's [guide][component-guide] for more information.\n\n#### Install\n\n`component install auth0/styleguide`\n\n```json\n{\n  \"dependencies\": {\n    \"auth0/stylguide\": \"2.0.0\"\n  }\n}\n```\n\n#### Build\n\nWhen using component you will have to build your styles using styleguide with a build step for stylus support.\n\nBasically, you will have to reproduce the line: `stylus --include-css --include ./components [files]` from Stylus [Javascript API][stylus-api-home].\n\nThis is an example for a [component-builder][component-builder-home] plugin setup.\n\n```js\n// stylus-plugin.js\nvar stylus = require('stylus');\n\nmodule.exports = function stylusPlugin(file, done) {\n  if (file.extension !== 'styl') return done();\n\n  file.read(oncontents);\n\n  function oncontents (err, string) {\n    if (err) return done(err);\n\n    var renderer = stylus(string, {\n      // add `./components/` folder for lookup\n      paths: [process.cwd() + '/components']\n    });\n\n    // set `--include-css` flag\n    renderer.set('includeCSS', true);\n\n    renderer.render(function (err, result) {\n      if(err) return done(err);\n      file.extension = 'css';\n      file.string = result;\n      done();\n    });\n  }\n}\n\n// build.js\nvar stylus = require('./stylus-plugin.js');\nvar Builder = require('component-builder');\n\nBuilder.styles(tree)\n  .use('styles', stylus)\n  .end(function (err, result) {\n    // done\n  });\n```\n\n#### Usage\n\nWith a build process well defined, you can now include the styleguide from your `index.styl`\n\n```stylus\n// use all styleguide styles\n@include 'auth0/styleguide/2.0.0'\n\n// define your own\nbody.my-custom\n  .styles-here\n    color: red;\n```\n\nOr perhaps you want to extend just parts of it by:\n\n```stylus\n// use only colors\n@include 'auth0/styleguide/2.0.0/lib/vars'\n\n// and override color-red\ncolor-red = '#ff0000';\n```\n\n## Releasing a new version\n\nRun the command `bin/version <patch|minor|major|version-no>` inside the root of the repo. This will commit a new version for you.\n\nExample\n```\nbin/version patch\n```\n\n\n## License\n\nAll the logos and branding are copyright Auth0 and may not be used or reproduced without explicit permission from Auth0 Inc.\n\nThe icons are licensed from [Budi Harto Tanrim](http://budicon.buditanrim.co/). All other third-party components are subject to their own licenses.\n\n<!-- Resources -->\n[cdn-hash]: #cdn\n[component-home]: https://github.com/componentjs/component\n[component-guide]: https://github.com/componentjs/guide\n[component-builder-home]: https://github.com/componentjs/builder2.js\n[gulp-home]: http://gulpjs.com/\n[grunt-home]: http://gruntjs.com/\n[bower-home]: https://bower.io\n[stylus-api-home]: http://learnboost.github.io/stylus/docs/js.html\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/auth0/lock.git"
+  },
+  "scripts": {
+    "dev": "gulp",
+    "start": "gulp build && serve --port ${PORT:-3000} ./build"
+  },
+  "version": "4.8.6",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "pkgid": "auth0-styleguide@4.8.6",
+      "required": {
+        "node": "4.3.2"
+      }
+    }
+  ]
+}

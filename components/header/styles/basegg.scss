@@ -1,0 +1,111 @@
+@import "vars/index";
+@import "mixins/index";
+
+$breakpoint-mobile: 320px;
+$breakpoint-mobile-landscape: 568px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 992px;
+$breakpoint-desktop-hd: 1200px;
+
+
+//
+// Background Colors
+//
+$bg-color-black: #15181D;
+$bg-color-dark: #222228;
+$bg-color-gray: #e3e5e7;
+$bg-color-gray-light: #f5f7f9;
+$bg-color-error: #FF3E00;
+$bg-color-success: #7ED321;
+$bg-color-alert: #F0CC00;
+
+
+// Variables
+
+$grid-gutter-width: 30px;
+$navbar-padding-horizontal:              floor($grid-gutter-width / 2);
+
+// Basics of a navbar
+$navbar-mobile-height:                   75px;
+$navbar-desktop-height:                  110px;
+
+// Navbar links
+$navbar-default-link-color:              $color-text-black;
+$navbar-default-link-hover-color:        black;
+$navbar-dark-link-color:                 $color-text-contrast-light;
+$navbar-dark-link-hover-color:           white;
+
+// Navbar toggle
+$navbar-toggle-background-color:         $bg-color-dark;
+$navbar-toggle-background-hover-color:   black;
+
+@mixin vertical-center-elem($element-height, $container-height) {
+  margin-top: (($container-height - $element-height) / 2);
+  margin-bottom: (($container-height - $element-height) / 2);
+}
+
+
+@mixin clearfix() {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin breakpoint($point, $orientation: "min") {
+	@if $point == "mobile" {
+		@if $orientation == "max" {
+			@media (min-width: ($breakpoint-mobile - 1) ) {@content};
+		}
+
+		@else {
+			@media (min-width: $breakpoint-mobile) {@content};
+		}
+	}
+
+	@else if $point == "mobile-landscape" {
+		@if $orientation == "max" {
+			@media (min-width: ($breakpoint-mobile-landscape - 1) ) {@content};
+		}
+		@else {
+			@media (min-width: $breakpoint-mobile-landscape) {@content};
+		}
+	}
+
+	@else if $point == "tablet" {
+		@if $orientation == "max" {
+			@media (min-width: ($breakpoint-tablet - 1) ) {@content};
+		}
+		@else {
+			@media (min-width: $breakpoint-tablet) {@content};
+		}
+	}	
+
+	@else if $point == "desktop" {
+		@if $orientation == "max" {
+			@media (min-width: ($breakpoint-desktop - 1) ) {@content};
+		}
+		@else {
+			@media (min-width: $breakpoint-desktop) {@content};
+		}
+	}
+
+	@else if $point == "desktop-hd" {
+		@if $orientation == "max" {
+			@media (min-width: ($breakpoint-desktop-hd - 1) ) {@content};
+		}
+		@else {
+			@media (min-width: $breakpoint-desktop-hd) {@content};
+		}
+	}
+
+	@else if $point == "retina-only" {		
+		@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { @content}
+		
+	}
+
+}

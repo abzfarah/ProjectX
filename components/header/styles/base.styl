@@ -1,0 +1,28 @@
+@import './auth0-styleguide/lib/vars/index.styl'
+@import './auth0-styleguide/lib/mixins/index.styl'
+
+// Variables
+
+$grid-gutter-width ?= 30px
+$navbar-padding-horizontal ?=              floor($grid-gutter-width / 2)
+
+// Basics of a navbar
+$navbar-mobile-height ?=                   75px
+$navbar-desktop-height ?=                  110px
+
+// Navbar links
+$navbar-default-link-color ?=              $color-text-black
+$navbar-default-link-hover-color ?=        black
+$navbar-dark-link-color ?=                 $color-text-contrast-light
+$navbar-dark-link-hover-color ?=           white
+
+// Navbar toggle
+$navbar-toggle-background-color ?=         $bg-color-dark
+$navbar-toggle-background-hover-color ?=   black
+
+
+// Mixins
+
+vertical-center-elem($element-height, $container-height)
+  margin-top (($container-height - $element-height) / 2)
+  margin-bottom (($container-height - $element-height) / 2)

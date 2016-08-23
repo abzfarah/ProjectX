@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c69b7fb1-34d8-45ec-8b12-633aa0cbb149" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/analytics_actions.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/channel_actions.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/post_actions.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/team_actions.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/user_actions.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/websocket_actions.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/web_websocket_client.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/websocket_client.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/about_build_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/access_history_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/activity_log_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/admin_console.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/admin_navbar_dropdown.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/admin_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/admin_sidebar.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/admin_sidebar_category.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/admin_sidebar_header.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/admin_sidebar_section.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/admin_sidebar_team.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/audits.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/banner.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/boolean_setting.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/brand_image_setting.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/compliance_reports.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/compliance_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/configuration_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/connection_security_dropdown_setting.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/connection_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/custom_brand_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/custom_emoji_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/database_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/developer_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/dropdown_setting.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/email_authentication_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/email_connection_test.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/email_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/external_service_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/file_upload_setting.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/generated_setting.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/gitlab_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/image_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/ldap_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/legal_and_support_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/license_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/localization_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/log_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/logs.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/multiselect_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/native_app_link_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/oauth_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/password_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/policy_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/privacy_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/public_link_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/push_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/rate_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/recycle_db.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/reload_config.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/remove_file_setting.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/reset_password_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/saml_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/save_button.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/select_team_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/session_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/setting.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/settings_group.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/signup_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/storage_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/sync_now_button.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/team_users.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/text_setting.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/user_item.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/users_and_teams_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/webhook_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/admin_console/webserver_mode_dropdown_setting.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/analytics/doughnut_chart.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/analytics/line_chart.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/analytics/statistic_count.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/analytics/system_analytics.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/analytics/table_chart.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/analytics/team_analytics.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audio_video_preview.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/audit_table.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/authorize.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/backstage/backstage_controller.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/backstage/components/backstage_category.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/backstage/components/backstage_header.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/backstage/components/backstage_list.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/backstage/components/backstage_navbar.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/backstage/components/backstage_section.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/backstage/components/backstage_sidebar.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/change_url_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/channel_header.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/channel_info_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/channel_invite_button.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/channel_invite_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/channel_members_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/channel_notifications_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/channel_select.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/channel_switch_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/channel_view.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/claim/claim_controller.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/claim/components/email_to_ldap.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/claim/components/email_to_oauth.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/claim/components/ldap_to_email.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/claim/components/oauth_to_email.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/code_preview.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/confirm_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/create_comment.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/create_post.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/create_team/components/display_name.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/create_team/components/team_url.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/create_team/create_team_controller.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/delete_channel_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/delete_post_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/do_verify_email.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/edit_channel_header_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/edit_channel_purpose_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/edit_post_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/emoji/components/add_emoji.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/emoji/components/emoji_list.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/emoji/components/emoji_list_item.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/error_bar.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/error_page.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/file_attachment.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/file_attachment_list.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/file_info_preview.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/file_preview.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/file_upload.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/file_upload_overlay.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/filtered_user_list.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/form_error.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/get_link_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/get_post_link_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/get_public_link_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/get_team_invite_link_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/header_footer_template.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/integrations/components/add_command.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/integrations/components/add_incoming_webhook.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/integrations/components/add_outgoing_webhook.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/integrations/components/installed_command.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/integrations/components/installed_commands.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/integrations/components/installed_incoming_webhook.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/integrations/components/installed_incoming_webhooks.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/integrations/components/installed_outgoing_webhook.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/integrations/components/installed_outgoing_webhooks.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/integrations/components/integration_option.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/integrations/components/integrations.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/invite_member_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/leave_team_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/loading_screen.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/logged_in.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/login/components/login_mfa.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/login/login_controller.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/member_list_team.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/message_wrapper.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/more_channels.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/more_direct_channels.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/msg_typing.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/navbar.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/navbar_dropdown.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/needs_team.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/new_channel_flow.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/new_channel_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/notify_counts.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/password_reset_form.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/password_reset_send_link.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/permalink_view.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/popover_list_members.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_deleted_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_view/components/floating_timestamp.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_view/components/pending_post_options.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_view/components/post.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_view/components/post_attachment.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_view/components/post_attachment_list.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_view/components/post_attachment_oembed.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_view/components/post_body.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_view/components/post_body_additional_content.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_view/components/post_header.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_view/components/post_image.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_view/components/post_info.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_view/components/post_list.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_view/components/post_time.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_view/components/providers.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_view/components/scroll_to_bottom_arrows.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_view/post_focus_view_controller.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_view/post_view_cache.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/post_view/post_view_controller.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/register_app_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/removed_from_channel_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/rename_channel_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/rhs_comment.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/rhs_header_post.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/rhs_root_post.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/rhs_thread.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/search_bar.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/search_results.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/search_results_header.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/search_results_item.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/select_team/select_team.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/setting_item_max.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/setting_item_min.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/setting_picture.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/setting_upload.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/settings_sidebar.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/should_verify_email.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/sidebar.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/sidebar_header.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/sidebar_right.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/sidebar_right_menu.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/signup_team_complete/components/signup_team_complete.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/signup_user_complete.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/spinner_button.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/status_icon.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/suggestion/at_mention_provider.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/suggestion/command_provider.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/suggestion/emoticon_provider.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/suggestion/search_channel_provider.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/suggestion/search_suggestion_list.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/suggestion/search_user_provider.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/suggestion/suggestion.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/suggestion/suggestion_box.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/suggestion/suggestion_list.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/suggestion/switch_channel_provider.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/team_general_tab.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/team_import_tab.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/team_members_dropdown.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/team_members_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/team_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/team_settings_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/textbox.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/toggle_modal_button.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/tutorial/tutorial_intro_screens.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/tutorial/tutorial_tip.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/tutorial/tutorial_view.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/unread_channel_indicator.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/user_list.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/user_list_row.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/user_profile.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/user_settings/custom_theme_chooser.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/user_settings/import_theme_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/user_settings/manage_languages.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/user_settings/premade_theme_chooser.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/user_settings/user_settings.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/user_settings/user_settings_advanced.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/user_settings/user_settings_developer.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/user_settings/user_settings_display.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/user_settings/user_settings_general.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/user_settings/user_settings_modal.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/user_settings/user_settings_notifications.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/user_settings/user_settings_security.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/user_settings/user_settings_theme.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/view_image.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/view_image_popover_bar.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/components/youtube_video.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/emoji/co3x5oy38in8dxaqikt4msfibr/image_deleted" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/emoji/corausckoidi5gbtbs4aynbuhh/image" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/emoji/tkzhuaxi3bgmby9gqi6namt5ce/image_deleted" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log.325556152" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log.3421431676" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log.3444799488" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prepros.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/route_admin_console.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/route_claim.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/route_create_team.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/route_emoji.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/route_integrations.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/route_team.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/route_utils.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/_breakpoint.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/.bump.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/.gembuild.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/breakpoint.gemspec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/eyeglass-exports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/lib/breakpoint.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/sache.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/_breakpoint.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/breakpoint/_context.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/breakpoint/_helpers.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/breakpoint/_legacy-settings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/breakpoint/_no-query.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/breakpoint/_parsers.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/breakpoint/_respond-to.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/breakpoint/_settings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/breakpoint/parsers/_double.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/breakpoint/parsers/_query.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/breakpoint/parsers/_resolution.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/breakpoint/parsers/_single.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/breakpoint/parsers/_triple.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/breakpoint/parsers/double/_default-pair.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/breakpoint/parsers/double/_default.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/breakpoint/parsers/double/_double-string.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/breakpoint/parsers/resolution/_resolution.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/breakpoint/parsers/single/_default.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/stylesheets/breakpoint/parsers/triple/_default.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/.unit_tests.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/config.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/01_pixel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/02_pixel_to_em.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/03_feature_values.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/04_min_max.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/05_min_max_feature.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/06_multidemensional.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/07_basic_or.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/08_one_sided_feature.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/09_not.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/10_double_string.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/11_legacy_syntax.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/12_breakpoint_resolutions.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/13_context_simple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/14_context_complex.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/15_no_query_fallback.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/16_media.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/17_breakpoint_function.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/18_pixel-memo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/19_pixel_to_em-memo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/20_feature_values-memo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/21_min_max-memo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/22_min_max_feature-memo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/23_multidemensional-memo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/24_basic_or-memo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/25_one_sided_feature-memo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/26_not-memo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/27_double_string-memo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/28_legacy_syntax-memo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/29_breakpoint_resolutions-memo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/30_context_simple-memo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/31_context_complex-memo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/32_no_query_fallback-memo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/33_media-memo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/34_breakpoint_function-memo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/controls/35_memoization.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/01_pixel.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/02_pixel_to_em.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/03_feature_values.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/04_min_max.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/05_min_max_feature.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/06_multidemensional.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/07_basic_or.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/08_one_sided_feature.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/09_not.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/10_double_string.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/11_legacy_syntax.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/12_breakpoint_resolutions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/13_context_simple.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/14_context_complex.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/15_no_query_fallback.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/16_media.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/17_breakpoint_function.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/18_pixel-memo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/19_pixel_to_em-memo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/20_feature_values-memo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/21_min_max-memo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/22_min_max_feature-memo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/23_multidemensional-memo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/24_basic_or-memo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/25_one_sided_feature-memo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/26_not-memo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/27_double_string-memo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/28_legacy_syntax-memo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/29_breakpoint_resolutions-memo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/30_context_simple-memo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/31_context_complex-memo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/32_no_query_fallback-memo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/33_media-memo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/34_breakpoint_function-memo.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/35_memoization.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint-sass/tests/tests/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint/_context.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint/_helpers.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint/_legacy-settings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint/_no-query.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint/_parsers.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint/_respond-to.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint/_settings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint/parsers/_double.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint/parsers/_query.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint/parsers/_resolution.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint/parsers/_single.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint/parsers/_triple.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint/parsers/double/_default-pair.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint/parsers/double/_default.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint/parsers/double/_double-string.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint/parsers/resolution/_resolution.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint/parsers/single/_default.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/breakpoint/parsers/triple/_default.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/alerts/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/badges/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/banner/demo.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/banner/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/big-tabs/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/boilerplates/website/demo.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/boilerplates/website/render.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/breadcrumb/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/browser/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/button-groups/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/buttons/demo.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/buttons/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/cards/demo.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/cards/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/carousel/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/center-title-block/demo.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/center-title-block/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/demo.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/amazon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/android.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/angular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/angular2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/apache.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/apple.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/aurelia.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/auth0.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/aws.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/cordova.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/electron.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/ember.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/falcor.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/firebase.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/generic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/go.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/hapi.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/ionic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/java.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/jquery.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/meteor.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/nancyfx.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/net.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/netold.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/nginx.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/nodejs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/phonegap.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/php.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/play.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/python.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/rails.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/react-native.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/react.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/relay.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/ruby.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/salesforce.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/sap.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/scala.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/servicestack.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/socketio.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/spring.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/vanillajs.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/vue.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/webhook.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/windows.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/img/xamarin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/circle-logo/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/codemirror/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/colors/demo.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/colors/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/component-animations/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/dropdowns/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/extension/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/footer/demo.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/footer/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/footer/index.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/forms/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/grid/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/grid/index.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/header/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/header/demo.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/header/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/highlight/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/input-groups/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/input-groups/index.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/jumbotron/demo.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/jumbotron/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/jumbotron/index.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/labels/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/labels/index.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/list-group/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/demo.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/badge.ai" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/badge.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/badge.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/components.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/design.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/email-templates.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/icon-styleguide.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/logo-blue-200.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/logo-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/logo-blue.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/logo-grey-100-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/logo-grey-100-grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/logo-grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/logo-grey.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/logo-lock-grey.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/resources.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/transparent-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/img/transparent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/logos/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/media/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/navbar/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/navbar/index.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/navs/demo.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/navs/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/panels/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/prettify/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/prettify/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/quotes/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/responsive/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/scaffolding/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/sidebar-box/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/sub-header/demo.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/sub-header/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/tables/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/themes/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/thumbnails/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/try-banner/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/try-header/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/typography/demo.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/typography/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/utilities/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/lib/vars/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/alerts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/background-variant.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/border-radius.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/center-block.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/clearfix.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/gradients.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/grid-framework.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/hide-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/labels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/nav-divider.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/nav-vertical-align.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/nav_divider.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/opacity.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/panels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/progress-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/reset-filter.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/reset-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/resize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/responsive-visibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/tab-focus.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/table-row.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/text-emphasis.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/text-overflow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/mixins/mixins/vendor-prefixes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/normalize/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/prepros 2.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/prepros.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/testing.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/testing.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/vars/index.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/vendor/animate.css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/vendor/animate.css/animate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sasss/vendor/normalize.css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stores/admin_store.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stores/analytics_store.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stores/browser_store.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stores/channel_store.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stores/emoji_store.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stores/error_store.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stores/file_store.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stores/integration_store.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stores/message_history_store.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stores/modal_store.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stores/notification_store.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stores/post_store.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stores/preference_store.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stores/search_store.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stores/suggestion_store.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stores/team_store.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stores/user_store.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stores/user_typing_store.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/.eslintrc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/client_admin.test.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/client_channel.test.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/client_command.test.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/client_emoji.test.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/client_general.test.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/client_hooks.test.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/client_oauth.test.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/client_post.test.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/client_preferences.test.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/client_team.test.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/client_user.test.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/emoticons.test.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/spinner_button.test.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/suggestion_box.test.jsx.disable" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/test_helper.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/async_client.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/channel_intro_messages.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/delayed_action.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/emoji.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/emoticons.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/license_utils.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/markdown.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/post_utils.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/syntax_hightlighting.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/text_formatting.jsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/utils.jsx" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actions/global_actions.jsx" afterPath="$PROJECT_DIR$/actions/global_actions.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/web_client.jsx" afterPath="$PROJECT_DIR$/client/web_client.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/PageLayout/PageLayout.jsx" afterPath="$PROJECT_DIR$/components/PageLayout/PageLayout.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/root.html" afterPath="$PROJECT_DIR$/dist/root.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/route_root.jsx" afterPath="$PROJECT_DIR$/routes/route_root.jsx" />
+    </list>
+    <ignored path="webapp.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="webapp" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="route_root.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/route_root.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global_actions.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/actions/global_actions.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.01836394">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/actions/global_actions.jsx" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="31" />
+    <option name="y" value="23" />
+    <option name="width" value="2059" />
+    <option name="height" value="1316" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="js-jscs-package" value="$USER_HOME$/node_modules/jscs" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c69b7fb1-34d8-45ec-8b12-633aa0cbb149" name="Default" comment="" />
+      <created>1471629399408</created>
+      <option name="number" value="Default" />
+      <updated>1471629399408</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="31" y="23" width="2059" height="1316" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21197252" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/routes/route_root.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/global_actions.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/route_root.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/global_actions.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.01836394">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

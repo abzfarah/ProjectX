@@ -1,0 +1,307 @@
+[
+  {
+    "name": "Products",
+    "id": "products",
+    "simpleList": true,
+    "mobileHref": "https://auth0.com/why-auth0",
+    "childrens": [
+      {
+        "componentType": "list",
+        "key": "product-list",
+        "items": [
+          {
+            "name": "Platform",
+            "id": "platform",
+            "href": "https://auth0.com/how-it-works",
+            "icon": "auth0"
+          },
+          {
+            "name": "Enterprise",
+            "id": "enterprise",
+            "href": "https://auth0.com/enterprise",
+            "icon": "auth0"
+          },
+          {
+            "name": "Lock",
+            "id": "lock",
+            "href": "https://auth0.com/lock",
+            "icon": "auth0"
+          },
+          {
+            "name": "Passwordless",
+            "id": "passwordless",
+            "href": "https://auth0.com/passwordless",
+            "icon": "auth0"
+          },
+          {
+            "name": "Wordpress",
+            "id": "wordpress",
+            "href": "https://auth0.com/wordpress",
+            "icon": "auth0"
+          },
+          {
+            "name": "Webtask",
+            "id": "webtask",
+            "href": "https://webtask.io/",
+            "icon": "webtask"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Why Auth0",
+    "id": "why-auth0",
+    "dropdownClass": "highlightDropdown",
+    "mobileHref": "https://auth0.com/why-auth0",
+    "childrens": [
+      {
+        "componentType": "list",
+        "key": "why-auth0-list",
+        "hasArrows": true,
+        "items": [
+          {
+            "name": "Overview",
+            "id": "overview",
+            "href": "https://auth0.com/why-auth0",
+            "highlight": {
+              "thumbnail": "https://auth0.com/lib/header/media/header-why-auth0.png",
+              "title": "Why Auth0?",
+              "excerpt": "Save time. Be Happy. Focus on what really matters. Authenticate and authorize apps and API's with any identity provider.",
+              "link": "https://auth0.com/why-auth0",
+              "morelinks": [
+                {
+                  "text": "Learn more",
+                  "href": "https://auth0.com/why-auth0",
+                  "external": true
+                }
+              ]
+            }
+          },
+          {
+            "name": "Customers",
+            "id": "customers",
+            "href": "https://auth0.com/customers",
+            "highlight": {
+              "thumbnail": "https://auth0.com/lib/header/media/header-customers.png",
+              "title": "These are some of the companies that trust Auth0",
+              "excerpt": "Auth0 is used by many companies and apps to manage their authentication. Learn who are they and how they use Auth0 as an Identity Platform.",
+              "link": "https://auth0.com/customers",
+              "morelinks": [
+                {
+                  "text": "Learn more",
+                  "href": "https://auth0.com/customers",
+                  "external": true
+                }
+              ]
+            }
+          },
+          {
+            "name": "Case Studies",
+            "id": "learn-case-studies",
+            "href": "https://auth0.com/learn#case-studies",
+            "external": true,
+            "highlight": {
+              "componentTitle": "Featured in Case Studies",
+              "title": "Harvard Medical School: Identity Secures NIH Research",
+              "excerpt": "Pre-eminent medical education and research institutions join forces to diagnose medical mysteries - secured by Auth0.",
+              "thumbnail": "https://auth0.com/learn/wp-content/uploads/2016/07/harvard_header.svg",
+              "link": "https://auth0.com/learn/harvard-medical-school-identity-secures-nih-research/",
+              "external": true,
+              "morelinks": [
+                {
+                  "text": "See all case studies",
+                  "href": "https://auth0.com/learn#case-studies",
+                  "external": true
+                }
+              ]
+            }
+          },
+          {
+            "name": "Concepts",
+            "id": "learn-concepts",
+            "href": "https://auth0.com/learn/#concepts",
+            "external": true,
+            "highlight": {
+              "componentTitle": "Featured in Concepts",
+              "title": "Get Started with JSON Web Tokens",
+              "excerpt": "All you wanted to know about JSON Web Tokens but were afraid to ask.",
+              "thumbnail": "https://auth0.com/learn/wp-content/uploads/2016/07/jwt_header.svg",
+              "link": "https://auth0.com/learn/json-web-tokens/",
+              "external": true,
+              "morelinks": [
+                {
+                  "text": "See all concepts",
+                  "href": "https://auth0.com/learn#concepts",
+                  "external": true
+                }
+              ]
+            }
+          },
+          {
+            "name": "Use Cases",
+            "id": "learn-use-cases",
+            "href": "https://auth0.com/learn#use-cases",
+            "external": true,
+            "highlight": {
+              "componentTitle": "Featured in Use Cases",
+              "title": "Powering User Analytics With Identity",
+              "excerpt": "Learn how Auth0 helps with your decision-making process, and makes it easy to gather data about your users.",
+              "thumbnail": "https://auth0.com/learn/wp-content/uploads/2016/03/analytics-catalog.png",
+              "link": "https://auth0.com/learn/powering-user-analytics-identity/",
+              "external": true,
+              "morelinks": [
+                {
+                  "text": "See all use cases",
+                  "href": "https://auth0.com/learn#use-cases",
+                  "external": true
+                }
+              ]
+            }
+          },
+          {
+            "name": "Industries",
+            "id": "learn-industries",
+            "href": "https://auth0.com/learn#industries",
+            "external": true,
+            "highlight": {
+              "componentTitle": "Featured in Industries",
+              "title": "B2Cs should delight their customers. Learn how with Auth0.",
+              "excerpt": "Want to give your customers an awesome experience in your apps? Give them a pain-free login experience and cater to their desires with social data.",
+              "thumbnail": "https://auth0.com/learn/wp-content/uploads/2016/07/B2C.svg",
+              "link": "https://auth0.com/learn/b2c-delight-your-customers-with-auth0/",
+              "external": true,
+              "morelinks": [
+                {
+                  "text": "See all industries",
+                  "href": "https://auth0.com/learn#industries",
+                  "external": true
+                }
+              ]
+            }
+          },
+          {
+            "name": "Others",
+            "id": "learn-growth",
+            "href": "https://auth0.com/learn/#growth",
+            "external": true,
+            "highlight": {
+              "componentTitle": "Featured in Others",
+              "title": "Build or Buy? 20 Identity Management Questions.",
+              "excerpt": "Identity Management is well understood - been doing it since the first computers. How hard can it be? Harder than you think - take the Build or Buy Quiz!",
+              "thumbnail": "https://auth0.com/learn/wp-content/uploads/2016/07/buyvsbuild_header.svg",
+              "link": "https://auth0.com/learn/build-or-buy-20-identity-management-questions/",
+              "external": true,
+              "morelinks": [
+                {
+                  "text": "See others",
+                  "href": "https://auth0.com/learn#growth",
+                  "external": true
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "componentType": "highlight",
+        "key": "default-highlight-overview",
+        "default": {
+          "thumbnail": "https://auth0.com/lib/header/media/header-why-auth0.png",
+          "title": "Why Auth0?",
+          "excerpt": "Save time. Be Happy. Focus on what really matters. Authenticate and authorize apps and API's with any identity provider.",
+          "link": "https://auth0.com/why-auth0"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Pricing",
+    "id": "pricing",
+    "href": "https://auth0.com/pricing"
+  },
+  {
+    "name": "Documentation",
+    "id": "documentation",
+    "href": "https://auth0.com/docs",
+    "external": true
+  },
+  {
+    "name": "More",
+    "id": "more",
+    "dropdownClass": "moreDropdown",
+    "childrens": [
+      {
+        "componentType": "list",
+        "title": "Additional info",
+        "key": "adittional-list",
+        "items": [
+          {
+            "name": "About",
+            "id": "about",
+            "href": "https://auth0.com/about"
+          },
+          {
+            "name": "Support",
+            "id": "support",
+            "href": "https://support.auth0.com"
+          },
+          {
+            "name": "Partners",
+            "id": "partners",
+            "href": "https://auth0.com/partners"
+          },
+          {
+            "name": "Press",
+            "id": "press",
+            "href": "https://auth0.com/press"
+          }
+        ]
+      },
+      {
+        "componentType": "list",
+        "title": "Tech resources",
+        "key": "resources-list",
+        "items": [
+          {
+            "name": "Security",
+            "id": "security",
+            "href": "https://auth0.com/security"
+          },
+          {
+            "name": "Availability",
+            "id": "availability",
+            "href": "https://auth0.com/availability-trust"
+          },
+          {
+            "name": "Opensource",
+            "id": "opensource",
+            "href": "https://auth0.com/opensource"
+          },
+          {
+            "name": "Jobs",
+            "id": "jobs",
+            "href": "https://auth0.com/jobs"
+          }
+        ]
+      },
+      {
+        "componentType": "highlight",
+        "title": "Latest from Auth0 blog",
+        "key": "last-blog",
+        "id": "last-blog",
+        "default": {
+          "componentTitle": "Latest from <a href=\"https://auth0.com/blog\" rel=\"external\">Auth0 blog</a>",
+          "avatar": "https://s.gravatar.com/avatar/99c4080f412ccf46b9b564db7f482907?s=200",
+          "title": "What is HTTP/2 All About?",
+          "excerpt": "HTTP/2 is the latest web standard that aims to improve the way we interact with the web. Learn all about HTTP/2 and how it affects you.",
+          "link": "https://auth0.com/blog/what-is-http2-all-about/",
+          "external": true,
+          "author": "Ado Kukic",
+          "thumbnail": "https://cdn.auth0.com/blog/about-http/logo.png",
+          "date": "August 5"
+        }
+      }
+    ]
+  }
+]
